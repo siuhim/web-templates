@@ -1348,13 +1348,16 @@ sup.footnote {
 }
 
 /* ----Jimmy's---- */
-
+.clear {
+  clear: both;
+}
 /* ----Company Page---- */
 
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
+  margin-bottom: 20px;
 	height: 0;
 }
 .videoWrapper iframe {
@@ -1520,11 +1523,8 @@ p.news-date {
 }
 
 .news-icon {
-  width: 100%;
+  width: 50%;
   display: block;
-  padding-right: 25%;
-  padding-left: 25%;
-  margin-bottom: 20px;
 }
 
 .news-top {
@@ -1575,4 +1575,139 @@ p.news-date {
   padding-left: 20px;
   padding-right: 20px;
 }
-  
+
+/* ----Trending Topic Page---- */
+.topics h3 {
+  margin-bottom: 40px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.topics ul, .topics li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+.topics-label-list {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.topics-label-list div {
+  margin-bottom: 5px;
+}
+
+
+.topics-icon {
+  width: 60%;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.topics-thumbnail {
+  float: left;
+  width: 30%;
+  padding-right: 30px;
+}
+
+.topics-list-item {
+  float: left;
+  width: 70%;
+  margin-bottom: 40px;
+}
+
+.topics-list li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.topics-list li p {
+  margin-bottom: 5px;
+}
+
+p.topics-list-item-des {
+  font-size: 90%;
+}
+
+img.topics-pic {
+  width: 100%;
+}
+
+.topics-main {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.topics-list {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 40px;
+}
+
+a.topics-label {
+  border-radius: 25px;
+}
+
+@media (max-width: 992px) {
+  .topics-icon {
+  width: 80%;
+}
+
+}
+
+@media (max-width: 768px) {
+  .topics-icon {
+  width: 15%;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+}
+
+/* ----Trending Topic Post Page---- */
+.topics-image {
+  margin-bottom: 20px
+}
+
+.topics-article {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 40px;
+}
+
+/* ----Fintech Fireside Page---- */
+
+.fireside h3 {
+  font-family: 'Roboto Slab', serif;
+}
+
+.fireside-video {
+  margin-bottom: 80px;
+}
+
+.fireside-more h3 {
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+img.fireside-thumbnail {
+  width: 100%;
+}
+
+.fireside-more-item  {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+
+.fireside-more-item img {
+  margin-bottom: 10px;
+}
+
+p.fireside-list-item-des {
+  font-size: 90%;
+}
